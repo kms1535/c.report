@@ -1,0 +1,12 @@
+# c.report
+##1. 두 실수를 메모리에 저장하고 더한 후 값을 출력하는 C 프로그램을 작성하시오.
+```
+#include <stdio.h>
+int main() {
+    float a = 3.5, b = 2.5;
+    float sum;
+    sum = a + b;
+    printf("%f\n", sum);
+    return 0;
+}
+```
